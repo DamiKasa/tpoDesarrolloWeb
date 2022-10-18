@@ -127,3 +127,30 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.5rem 0;
 }
+
+.mas-de-mi {
+    align-items: center;
+    justify-content: center;
+    max-width: 50rem;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 2px var(--shadow-color);
+}
+
+.mas-de-mi h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: left;
+}
+
+.mas-de-mi p {
+    line-height: var(--line-height);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.juegos {
+    max-width: 50rem;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 2px var(--shadow-color);
+}
