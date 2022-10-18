@@ -1,0 +1,26 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    background: #facae6;
+}
+
+/* Colores: #dab58c #95664e #f1aaec #facae6 #a76f84 */
+
+.logo{
+    background: none;
+    width: 5rem;
+}
+
+.nav {
+    display: flexbox;
+    position: relative;
+    background: #f1aaec;
+    box-sizing: 3rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    z-index: 200;
+}
+
+.buttons {
+    display: flexbox;
+    position: relative;
+}
