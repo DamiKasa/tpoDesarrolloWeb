@@ -5,18 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maru Kasaraku</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="icon" href="assets/icons/M.png">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!--Nav-->
+    <nav>
+        <a href="index.html"><img src="assets/images/logoA.png" alt="Home" class="logo"></a>
+        <ul>
+            <li><a href="works.html" class="nav-link">My works</a></li>
+            <li><a href="tos.html" class="nav-link">T.O.S.</a></li>
+            <li><a href="commissionme.html" class="nav-link">Commision me</a></li>
+            <li><a href="wip.html" class="nav-link">W.I.P.</a></li>           
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+            <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
 
-    <div>
-        <h1>Welcome to my page</h1>
-    </div>
+    <section class="hero" id="about">
+        <img src="assets/images/maru.png" alt="It's me Maru" loading="eager" class="marupng">
+        <div class="bio animate__animated animate__fadeInDown">
+            <h2 class="bio-titulo">Bienvenides</h2>
+            <p class="bio-texto">
+                <dd>Soy Kasaraku Maru, una <a href="https://es.wikipedia.org/wiki/Kasa-obake">karakasa</a> que le
+                gusta dibujar y pasar tiempo con sus amigues.</dd>
+                <dd>En esta página web encontrarán mis trabajos, mis comisiones, terminos de 
+                servicio y mis procesos en los dibujos que estoy haciendo.</dd>
+                <dd>Hago streaming en twitch donde hago mis trabajos o juego un rato.</dd> 
+            </p>
+        </div>
+    </section>
+
+
+
+
+<!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

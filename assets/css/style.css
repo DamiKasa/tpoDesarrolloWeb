@@ -1,26 +1,129 @@
+
+/* mis variables*/
+:root {
+    --font-family: 'Silkscreen', cursive;;
+    --normal-font: 200;
+    --font-normal: medium;
+    --font-big: large;
+    --bold-font: 700;
+    --bolder-font: 1400;
+    --bg-color: #facae6;
+    --primary-color:#a76f84;
+    --secondary-color:#f1aaec;
+    --primary-shadow:#95664e;
+    --secondary-shadow:#dab58c;
+    --accent-color: #c13c1a;
+    --shadow-color: rgba(78, 4, 56, 0.425);
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.5rem;
+    --transition: 0.3s;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
-    font-family: 'Work Sans', sans-serif;
-    background: #facae6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--bg-color);
+  }
+
+ul {
+    list-style-type: none;
 }
 
-/* Colores: #dab58c #95664e #f1aaec #facae6 #a76f84 */
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: var(--bold-font);
+}
+
+a:hover {
+    color: var(--primary-shadow);
+}
+
+body {
+    font-family: var(--font-family);
+}
 
 .logo{
     background: none;
-    width: 5rem;
+    width: 7.5rem;
 }
 
-.nav {
-    display: flexbox;
-    position: relative;
-    background: #f1aaec;
-    box-sizing: 3rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    z-index: 200;
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 3px 3px var(--shadow-color);
 }
 
-.buttons {
-    display: flexbox;
-    position: relative;
+nav a {
+    color: var(--primary-color);
+    font-size: var(--font-normal);
+    font-weight: var(--bold-font);
+    transition: var(--transition);
+}
+
+nav a:hover{
+    color: var(--accent-color);
+    font-weight: var(--bolder-font);
+}
+
+nav ul {
+    background: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    background: none;
+    font-weight: var(--bold-font);
+}
+
+.menu-hamburguesa {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    max-width: 75rem;
+    margin: 2rem 7rem;
+}
+
+.hero img {
+    height: 31rem;
+    width: 27rem;
+}
+
+.bio {
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 2px var(--shadow-color);
+}
+
+.bio h2 {
+    margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.5rem 0;
 }
