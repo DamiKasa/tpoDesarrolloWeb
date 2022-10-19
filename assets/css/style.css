@@ -170,3 +170,33 @@ nav ul li {
     text-align: right;
 }
 
+.programas {
+    position: relative;
+    max-width: 100rem;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 2px var(--shadow-color);
+}
+
+.programas h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+#icon {
+    width: 7rem;
+}
+
+.programas .iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#descripcion ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
